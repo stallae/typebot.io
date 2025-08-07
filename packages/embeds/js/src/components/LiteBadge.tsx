@@ -72,7 +72,7 @@ export const LiteBadge = (props: Props) => {
             liteBadge.className = "lite-badge";
           }
           if (mutation.attributeName === "href") {
-            liteBadge.href = "https://typebot.io/?utm_source=litebadge";
+            liteBadge.href = "https://stallae.com";
           }
           if (mutation.attributeName === "id") {
             liteBadge.id = "lite-badge";
@@ -94,7 +94,7 @@ export const LiteBadge = (props: Props) => {
   return (
     <a
       ref={liteBadge}
-      href={"https://stallae.com"}
+      href={"https://stallae.com.br/?utm_source=litebadge"}
       target="_blank"
       rel="noopener noreferrer" 
       class="lite-badge"
