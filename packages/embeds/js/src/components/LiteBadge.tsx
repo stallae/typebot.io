@@ -94,15 +94,15 @@ export const LiteBadge = (props: Props) => {
   return (
     <a
       ref={liteBadge}
-      href={"https://typebot.io/?utm_source=litebadge"}
+      href={"https://stallae.com"}
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener noreferrer" 
       class="lite-badge"
       id="lite-badge"
       style={defaultStyles}
     >
       <TypebotLogo />
-      <span>Made with Typebot</span>
+      <span>Made by Stallae</span>
     </a>
   );
 };
