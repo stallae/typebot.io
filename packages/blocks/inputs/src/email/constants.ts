@@ -7,5 +7,5 @@ export const defaultEmailInputOptions = {
     placeholder: "Type your email...",
   },
   retryMessageContent:
-    "This email doesn't seem to be valid. Can you type it again?",
+    "Este email não parece ser válido. Você pode digitá-lo novamente?",
 } as const satisfies EmailInputBlock["options"];

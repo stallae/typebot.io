@@ -28,17 +28,17 @@ export const defaultSettings = {
 } as const;
 
 export const defaultSystemMessages = {
-  invalidMessage: "Invalid message. Please, try again.",
-  botClosed: "This bot is now closed",
-  networkErrorTitle: "Network Error",
-  networkErrorMessage: "Please check your internet connection and try again.",
-  popupBlockedTitle: "Popup blocked",
+  invalidMessage: "Mensagem inválida. Por favor, tente novamente.",
+  botClosed: "Este bot está fechado agora",
+  networkErrorTitle: "Erro de Rede",
+  networkErrorMessage: "Por favor, verifique sua conexão com a internet e tente novamente.",
+  popupBlockedTitle: "Pop-up bloqueado",
   popupBlockedDescription:
-    "The bot wants to open a new tab but it was blocked by your browser. It needs a manual approval.",
-  popupBlockedButtonLabel: "Continue in new tab",
-  fileUploadError: "An error occured while uploading the files",
-  fileUploadSizeError: "[[file]] is larger than [[limit]]MB",
-  whatsAppPictureChoiceSelectLabel: "Select",
+    "O bot quer abrir uma nova aba, mas foi bloqueado pelo seu navegador. É necessária aprovação manual.",
+  popupBlockedButtonLabel: "Continuar em nova aba",
+  fileUploadError: "Ocorreu um erro ao enviar os arquivos",
+  fileUploadSizeError: "[[file]] é maior que [[limit]]MB",
+  whatsAppPictureChoiceSelectLabel: "Selecionar",
 } as const satisfies NonNullable<Settings["general"]>["systemMessages"];
 
 export const defaultSessionExpiryTimeout = 4;

@@ -19,17 +19,6 @@ export const RootPage = ({ dashboardUrl }: { dashboardUrl: string }) => (
         textAlign: "center",
       }}
     >
-      <h1
-        style={{
-          fontWeight: "bold",
-          fontSize: "2.5rem", 
-          color: "white",
-          marginBottom: "1.5rem",
-          fontFamily: "'Poppins', sans-serif",
-        }}
-      >
-        Stallae
-      </h1>
       <p
         style={{
           fontSize: "1.1rem",
@@ -55,7 +44,7 @@ export const RootPage = ({ dashboardUrl }: { dashboardUrl: string }) => (
             borderRadius: "0.5rem",
             display: "inline-block",
           }}
-          stallae.com
+          STALLAE
         </a>
       </div>
     </div>

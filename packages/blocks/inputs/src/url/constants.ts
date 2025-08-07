@@ -7,5 +7,5 @@ export const defaultUrlInputOptions = {
     placeholder: "Type a URL...",
   },
   retryMessageContent:
-    "This URL doesn't seem to be valid. Can you type it again?",
+    "Esta URL não parece ser válida. Você pode digitá-la novamente?",
 } as const satisfies UrlInputBlock["options"];

@@ -7,5 +7,5 @@ export const defaultPhoneInputOptions = {
     placeholder: "Type your phone number...",
   },
   retryMessageContent:
-    "This phone number doesn't seem to be valid. Can you type it again?",
+    "Este número de telefone não parece ser válido. Você pode digitá-lo novamente?",
 } as const satisfies PhoneNumberInputBlock["options"];
