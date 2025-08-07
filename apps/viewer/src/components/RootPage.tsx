@@ -44,6 +44,7 @@ export const RootPage = ({ dashboardUrl }: { dashboardUrl: string }) => (
             borderRadius: "0.5rem",
             display: "inline-block",
           }}
+        >
           STALLAE
         </a>
       </div>
