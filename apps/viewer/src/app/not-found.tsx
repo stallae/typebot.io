@@ -4,31 +4,55 @@ import "../assets/styles.css";
 export default function NotFound() {
   return (
     <div
+    style={{
+      height: "100dvh",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      flexDirection: "column", 
+      background: "black",
+      padding: "2rem",
+    }}
+  >
+    <div
       style={{
-        height: "100dvh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column",
-        padding: "0 1rem",
+        background: "black",
+        padding: "3rem",
+        borderRadius: "1rem",
+        maxWidth: "600px",
+        textAlign: "center",
       }}
     >
-      <div
+      <p
         style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: 24,
-          alignItems: "center",
+          fontSize: "1.1rem",
+          lineHeight: "1.8",
+          color: "white",
+          marginBottom: "1.5rem",
         }}
       >
-        <a href="https://typebot.io" style={{ color: "inherit" }}>
-          <TypebotLogo style={{ fontSize: "32px" }} />
+        Vendemos soluções de inteligência artificial e chatbots inteligentes
+        para automatizar e melhorar a comunicação com seus clientes.
+        Descubra tudo o que podemos fazer pelo seu negócio.
+      </p>
+      <div style={{ textAlign: "center" }}>
+        <a
+          href="https://stallae.com"
+          style={{
+            color: "black",
+            textDecoration: "none",
+            fontWeight: "500",
+            fontSize: "1.2rem",
+            background: "white",
+            padding: "0.5rem 1rem",
+            borderRadius: "0.5rem",
+            display: "inline-block",
+          }}
+        >
+          STALLAE
         </a>
-
-        <h1 style={{ margin: 0, fontSize: "24px", fontWeight: "normal" }}>
-          The bot you're looking for doesn't exist
-        </h1>
       </div>
     </div>
+  </div>
   );
 }
