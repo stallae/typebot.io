@@ -92,17 +92,6 @@ export const LiteBadge = (props: Props) => {
   });
 
   return (
-    <a
-      ref={liteBadge}
-      href={"https://stallae.com.br/?utm_source=litebadge"}
-      target="_blank"
-      rel="noopener noreferrer" 
-      class="lite-badge"
-      id="lite-badge"
-      style={defaultStyles}
-    >
-      <TypebotLogo />
       <span>Made by Stallae</span>
-    </a>
   );
 };
