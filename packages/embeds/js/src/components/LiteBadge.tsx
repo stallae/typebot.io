@@ -94,7 +94,7 @@ export const LiteBadge = (props: Props) => {
   return (
     <a
       ref={liteBadge}
-      href={"https://stallae.com.br"}
+      href={"https://stallae.com"}
       target="_blank"
       rel="noopener noreferrer" 
       class="lite-badge"
